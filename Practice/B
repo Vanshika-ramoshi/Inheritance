@@ -1,0 +1,30 @@
+package com.inheritance;
+
+public class B extends A {
+	
+	int y = 20;
+
+}
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+package com.inheritance;
+
+public class B extends A {
+	
+	public void showB() {
+		System.out.println("This is a ShowB");
+}
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+package com.inheritance;
+
+public class B extends A {
+	
+	int b = a * 2;
+	public void display() {
+
+		System.out.println("Value of a :"+a);
+		System.out.println("Value of b :"+b);
+	}
+}
